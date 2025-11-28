@@ -12,10 +12,9 @@ The core AI scripts are organized into dedicated folders based on the model:
 
 | Model | Technique Used | Performance & Achievement | Primary Role |
 | :--- | :--- | :--- | :--- |
-| **Brain Tumor Classification** | VGG16 (Fine-Tuning) | **97.56% Accuracy** | Applied advanced fine-tuning and optimization techniques to significantly raise the model's accuracy. |
-| **Breast Cancer Classification** | InceptionResNetV2 + CBAM | **91.15% Accuracy** | Contributed to the diagnostic model development, integrating the CBAM attention mechanism. |
-| **Skin Cancer Classification** | Deep Neural Network (DL Architecture) | **Full Training Code** | Led the data pre-processing phase and wrote the core training script (available in `3_Skin_Model/skin code.ipynb`). |
-
+| **Brain Tumor Classification** | VGG16 with Fine-Tuning, Hyperparameter Optimization | **97.56% Accuracy** | Applied Fine-Tuning and revised augmentation/learning rate settings to significantly boost performance from 93% to **97.56%**. |
+| **Breast Cancer Classification** | InceptionResNetV2 + CBAM (Attention Module) | **91.15% Accuracy** | Designed the architecture using InceptionResNetV2 and integrated CBAM to enhance focus on histopathology details, achieving **91.15%**. |
+| **Skin Cancer Classification** | EfficientNetB2, Data Augmentation & Class Imbalance Handling | **88.42% Accuracy** | Focused on data quality (organizing classes, augmentation) and model stability with EfficientNetB2, achieving **88.42%**. |
 ---
 
 ### ⚠️ Technical Note: Large File Restriction
